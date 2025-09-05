@@ -1,19 +1,16 @@
 package co.edu.uniquindio.patrones.singleton;
 
-// Clase Marcador con Singleton
 public class Marcador {
-    private static Marcador instance; // instancia única
+    private static Marcador instance;
 
     private int puntosEquipo1;
     private int puntosEquipo2;
 
-    // Constructor privado
     private Marcador() {
         puntosEquipo1 = 0;
         puntosEquipo2 = 0;
     }
 
-    // Método estático para obtener la instancia
     public static Marcador getInstance() {
         if (instance == null) {
             instance = new Marcador();

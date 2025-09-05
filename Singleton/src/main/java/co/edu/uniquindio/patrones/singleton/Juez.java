@@ -1,6 +1,5 @@
 package co.edu.uniquindio.patrones.singleton;
 
-// Clase Juez
 public class Juez {
 
     public void consultarMarcador() {

@@ -1,9 +1,8 @@
 package co.edu.uniquindio.patrones.singleton;
 
-// Clase Jugador
 public class Jugador {
     private String nombre;
-    private int numeroEquipo; // 1 o 2
+    private int numeroEquipo;
 
     public Jugador(String nombre, int numeroEquipo) {
         this.nombre = nombre;
@@ -11,7 +10,7 @@ public class Jugador {
     }
 
     public void anotar() {
-        Marcador marcador = Marcador.getInstance(); // Obtener la instancia única
+        Marcador marcador = Marcador.getInstance();
         if (numeroEquipo == 1) {
             marcador.anotarEquipo1();
             System.out.println(nombre + " anotó 3 puntos para el Equipo 1");
