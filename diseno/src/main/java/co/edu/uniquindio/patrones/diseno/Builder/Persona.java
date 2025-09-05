@@ -1,4 +1,4 @@
-package co.edu.uniquindio.patrones.diseno.model;
+package co.edu.uniquindio.patrones.diseno.Builder;
 
 public class Persona {
     private String nombre;

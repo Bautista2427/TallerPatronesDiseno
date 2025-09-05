@@ -1,6 +1,4 @@
-package co.edu.uniquindio.patrones.diseno.model.builder;
-
-import co.edu.uniquindio.patrones.diseno.model.Persona;
+package co.edu.uniquindio.patrones.diseno.Builder;
 
 public class PersonaBuilder {
     private String nombre;

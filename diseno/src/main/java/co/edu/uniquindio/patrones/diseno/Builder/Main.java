@@ -1,7 +1,4 @@
-package co.edu.uniquindio.patrones.diseno;
-
-import co.edu.uniquindio.patrones.diseno.model.Persona;
-import co.edu.uniquindio.patrones.diseno.model.builder.PersonaBuilder;
+package co.edu.uniquindio.patrones.diseno.Builder;
 
 public class Main {
     public static void main(String[] args) {
